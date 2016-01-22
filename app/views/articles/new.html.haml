@@ -1,0 +1,13 @@
+= form_for @article do |article_form|
+	%p
+		= article_form.label 'title', 'Title'
+		= article_form.text_field 'title'
+
+	%p
+		= article_form.label 'text', 'Text'
+		= article_form.text_area 'text'
+
+	%p
+		= submit_tag 
+
+	
